@@ -1,0 +1,376 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="NP">
+
+	<title>BookStore</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="../images/logos.png">
+
+	<!-- jQuery -->
+	<script src="../js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+	<!-- Bootstrap4 files-->
+	<script src="../js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+	<!-- Font awesome 5 -->
+	<link href="../fonts/fontawesome/css/fontawesome-all.min.css" type="text/css" rel="stylesheet">
+
+	<!--plugin -->
+	<!-- plugin: owl carousel  -->
+	<link href="../plugins/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="../plugins/owlcarousel/assets/owl.theme.default.css" rel="stylesheet">
+	<script src="../plugins/owlcarousel/owl.carousel.min.js"></script>
+
+	<!-- plugin: slickslider -->
+	<link href="../plugins/slickslider/slick.css" rel="stylesheet" type="text/css" />
+	<link href="../plugins/slickslider/slick-theme.css" rel="stylesheet" type="text/css" />
+	<script src="../plugins/slickslider/slick.min.js"></script>
+
+	<!-- plugin: fancybox  -->
+	<script src="../plugins/fancybox/fancybox.min.js" type="text/javascript"></script>
+	<link href="../plugins/fancybox/fancybox.min.css" type="text/css" rel="stylesheet">
+
+	<!-- custom style -->
+	<link href="../css/ui.css" rel="stylesheet" type="text/css" />
+	<link href="../css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+	<!-- our styles -->
+	<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+
+	<!-- custom javascript -->
+	<script src="../js/script.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		/// some script
+
+		// jquery ready start
+		$(document).ready(function () {
+			// jQuery code
+
+		});
+	// jquery end
+	</script>
+
+</head>
+
+<body>
+	<header class="section-header">
+		<nav class="navbar navbar-expand-sm navbar-dark bg-info">
+			<div class="container">
+				<div class="row" style="width:100%;">
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+							aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div>
+							<div class="collapse navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav d-flex justify-content-left align-items-center py-1">
+									<li class="nav-item active"><a class="nav-link" href="../index.html">Home<span
+												class="sr-only">(current)</span></a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="../categories/fiction.html">Fiction</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="../categories/nonFiction.html">Non-Fiction</a></li>
+									<li class="nav-item"><a class="nav-link" href="../categories/comics.html">Comics</a>
+									</li>
+									<li class="nav-item"><a class="nav-link"
+											href="../categories/accesories.html">Accesories</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-12-24 col-sm-12">
+						<div class="widgets-wrap float-right row no-gutters py-1">
+							<div class="col-auto">
+								<div class="widget-header dropdown">
+									<a href="#" data-toggle="dropdown" data-offset="20,10">
+										<div class="icontext">
+											<div class="icon-wrap"><i class="text-light icon-sm fa fa-user"></i></div>
+											<div class="text-wrap text-light">
+												Sign in <i class="fa fa-caret-down"></i>
+											</div>
+										</div>
+									</a>
+									<div class="dropdown-menu">
+										<form class="px-4 py-3">
+											<div class="form-group">
+												<label style="color: black;">Email address</label>
+												<input type="email" class="form-control-lg"
+													placeholder="email@example.com">
+											</div>
+											<div class="form-group">
+												<label style="color: black;">Password</label>
+												<input type="password" class="form-control-lg" placeholder="Password">
+											</div>
+											<button type="submit" class="btn btn-info">Sign in</button>
+										</form>
+										<hr class="dropdown-divider">
+										<a class="dropdown-item" href="registration.html">Sign up</a>
+										<a class="dropdown-item" href="#">Forgot password?</a>
+									</div> <!--  dropdown-menu .// -->
+								</div> <!-- widget-header .// -->
+							</div> <!-- col.// -->
+							<div class="col-auto">
+								<a href="cart.html" class="widget-header">
+									<div class="icontext">
+										<div class="icon-wrap"><i class="text-light icon-sm fa fa-shopping-cart"></i>
+										</div>
+										<div class="text-wrap text-light">Cart </div>
+									</div>
+								</a>
+							</div> <!-- col.// -->
+							<div class="col-auto">
+								<a href="favorites.html" class="widget-header">
+									<div class="icontext">
+										<div class="icon-wrap"><i class="text-light icon-sm  fa fa-heart"></i></div>
+										<div class="text-wrap text-light">Favorites</div>
+									</div>
+								</a>
+							</div> <!-- col.// -->
+						</div> <!-- widgets-wrap.// row.// -->
+					</div> <!-- col.// -->
+				</div>
+			</div>
+		</nav>
+		<section id="intro" class="section-intro pt-4">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-4">
+						<div class="brand-wrap">
+							<img class="logo" src="../images/logos.png" style="max-width: 100px;">
+							<h2 class="logo-text">BookStore</h2>
+						</div> <!-- brand-wrap.// -->
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+
+					</div> <!-- col.// -->
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+						<form action="#" class="widget-header float-right">
+							<div class="input-group">
+								<input type="text" class="form-control-lg" placeholder="Search">
+								<div class="input-group-append">
+									<button class="btn btn-info" type="submit">
+										<i class="fa fa-search"></i>
+									</button>
+								</div>
+							</div>
+						</form> <!-- search-wrap .end// -->
+					</div> <!-- col.// -->
+
+				</div> <!-- row.// -->
+			</div> <!-- container.// -->
+		</section> <!-- header-main .// -->
+	</header> <!-- section-header.// -->
+
+	<!--contentul de baza-->
+	<!-- Section - contacts -->
+	<div class="container col-xl-10 col-sm-12 ">
+		<section class="my-5 myimage">
+			<!-- Section heading -->
+
+			<!-- Grid row -->
+			<div class="row">
+				<!-- Grid column -->
+				<div class="col-lg-5 mb-lg-0 mb-4">
+					<!-- Form with header -->
+					<div style="background-color: rgba(0, 0, 0, 0.3);">
+						<div class="card-body">
+							<!-- Header -->
+							<header class="card-header">
+								<h4 class="card-title mt-2" style="text-align: center; color: white;">Let's get started
+								</h4>
+							</header>
+							<article class="card-body">
+								<!-- Material form register -->
+
+								<!--Card content-->
+								<div class="card-body px-lg-5 pt-0">
+
+									<!-- Form -->
+									<form class="text-center" style="color: #757575;" action="#!">
+
+										<div class="form-row">
+											<div class="col">
+												<!-- First name -->
+												<div class="md-form">
+													<input type="text" id="materialRegisterFormFirstName"
+														class="form-control">
+													<label for="materialRegisterFormFirstName">First name</label>
+												</div>
+											</div>
+											<div class="col">
+												<!-- Last name -->
+												<div class="md-form">
+													<input type="email" id="materialRegisterFormLastName"
+														class="form-control">
+													<label for="materialRegisterFormLastName">Last name</label>
+												</div>
+											</div>
+										</div>
+
+										<!-- E-mail -->
+										<div class="md-form mt-0">
+											<input type="email" id="materialRegisterFormEmail" class="form-control">
+											<label for="materialRegisterFormEmail">E-mail</label>
+										</div>
+
+										<!-- Password -->
+										<div class="md-form">
+											<input type="password" id="materialRegisterFormPassword"
+												class="form-control"
+												aria-describedby="materialRegisterFormPasswordHelpBlock">
+											<label for="materialRegisterFormPassword">Password
+												<i
+													style=" font-size: 16px; font-family: 'Times New Roman' , Times, serif;">(At
+													least 8
+													characters and 1 digit)
+												</i>
+											</label>
+										</div>
+
+										<!-- Phone number -->
+										<div class="md-form">
+											<input type="password" id="materialRegisterFormPhone" class="form-control"
+												aria-describedby="materialRegisterFormPhoneHelpBlock">
+											<label for="materialRegisterFormPhone">Phone number
+												<i
+													style="font-size: 16px; font-family: 'Times New Roman', Times, serif;">(Optional
+													-
+													for two step authentication)</i>
+											</label>
+										</div>
+
+										<!-- Newsletter -->
+										<div class="form-check">
+											<input type="checkbox" class="form-check-input"
+												id="materialRegisterFormNewsletter">
+											<label class="form-check-label"
+												for="materialRegisterFormNewsletter">Subscribe to our
+												newsletter</label>
+										</div>
+
+										<!-- Sign up button -->
+										<button
+											class="btn btn-outline-dark btn-rounded btn-block my-4 waves-effect z-depth-0"
+											type="submit" style="color: white; border: 3px solid white">Sign Up</button>
+
+										<!-- Social register -->
+										<p style="color: white;"><i>or sign up with:</i></p>
+
+										<a type="button" class="btn-floating btn-fb btn-sm">
+											<i class="fab fa-facebook-f" style="color:white"></i>
+										</a>
+										<a type="button" class="btn-floating btn-tw btn-sm">
+											<i class="fab fa-twitter" style="color:white"></i>
+										</a>
+										<a type="button" class="btn-floating btn-li btn-sm">
+											<i class="fab fa-linkedin-in" style="color: white;"></i>
+										</a>
+
+
+										<hr>
+
+										<!-- Terms of service -->
+
+
+									</form>
+									<!-- Material form register -->
+								</div>
+							</article> <!-- card-body end .// -->
+						</div>
+					</div><!-- Form with header -->
+				</div><!-- Grid column -->
+				<div class="col-lg-7">
+					<!--Google map-->
+
+					<!-- <img src="https://image.freepik.com/free-photo/men-carrying-backpack-searching-books-library_1150-24660.jpg"
+						class="img-responsive col-sm-12 firstimg" style="opacity: 0.3; margin-top: 10%;"> -->
+
+					<!-- Buttons-->
+
+				</div><!-- Grid column -->
+			</div><!-- Grid row -->
+		</section><!-- Section: Contact v.1 -->
+	</div>
+	<hr />
+	<!-- ========================= FOOTER ========================= -->
+	<footer class=" section-footer bg-info">
+		<div class="container">
+			<section class="footer-top padding-top">
+				<div class="row">
+					<aside class="col-sm-12 col-md-6 col-xl-3 col-lg-3 white">
+						<h5 style="color: white; font-weight: bold;">Customer Services</h5>
+						<ul class="list-unstyled">
+							<li> <a href="contacts.html">Contact us</a></li>
+							<li> <a href="#">Money refund</a></li>
+							<li> <a href="#">Terms and Policy</a></li>
+							<li> <a href="#">Open dispute</a></li>
+						</ul>
+					</aside>
+					<aside class="col-sm-12 col-md-6 col-xl-3 col-lg-3 white">
+						<h5 style="color: white; font-weight: bold;">My Account</h5>
+						<ul class="list-unstyled">
+							<li> <a href="logIn.html"> User Login </a></li>
+							<li> <a href="registration.html"> User register </a></li>
+							<li> <a href="#"> Account Setting </a></li>
+							<li> <a href="cart.html"> My Orders </a></li>
+							<li> <a href="favorites.html"> My Wishlist </a></li>
+						</ul>
+					</aside>
+					<aside class="col-sm-12 col-md-6 col-xl-3 col-lg-3 white">
+						<h5 style="color: white; font-weight: bold;">About us</h5>
+						<ul class="list-unstyled">
+							<li> <a href="#"> Our history </a></li>
+							<li> <a href="#"> How to buy </a></li>
+							<li> <a href="#"> Delivery and payment </a></li>
+						</ul>
+					</aside>
+					<aside class="col-sm-12 col-md-6 col-xl-3 col-lg-3">
+						<article class="white">
+							<h5 style="color: white; font-weight: bold;"></h5>
+							<p>
+								<strong>Phone: </strong> +123456789 <br>
+								<strong>Fax:</strong> +123456789
+							</p>
+
+							<div class="btn-group white">
+								<a class="btn-floating btn-lg btn-fb" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn-floating btn-lg btn-ins" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-instagram"></i></a>
+								<a class="btn-floating btn-lg btn-yt" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-youtube"></i></a>
+								<a class="btn-floating btn-lg btn-tw" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-twitter"></i></a>
+								<a class="btn-floating btn-lg btn-pin" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-pinterest"></i></a>
+							</div>
+						</article>
+					</aside>
+				</div> <!-- row.// -->
+				<br>
+			</section>
+			<section class="footer-bottom row border-top-white">
+				<div class="col-sm-12 col-md-12 col-xl-6 col-lg-6">
+					<p class="text-md-right text-white-50">
+						Copyright &copy 2020 BookStore. All rights reserved.
+						<a href="me@gmail.com" class="text-white-50"></a>
+					</p>
+				</div>
+			</section> <!-- //footer-top -->
+		</div><!-- //container -->
+	</footer>
+	<!-- ========================= FOOTER END // ========================= -->
+
+
+</body>
+
+</html>

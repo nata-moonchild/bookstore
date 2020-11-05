@@ -1,0 +1,385 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="NP">
+
+	<title>BookStore</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="../images/logos.png">
+
+	<!-- jQuery -->
+	<script src="../js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+	<!-- Bootstrap4 files-->
+	<script src="../js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+	<!-- Font awesome 5 -->
+	<link href="../fonts/fontawesome/css/fontawesome-all.min.css" type="text/css" rel="stylesheet">
+
+	<!--plugin -->
+	<!-- plugin: owl carousel  -->
+	<link href="../plugins/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="../plugins/owlcarousel/assets/owl.theme.default.css" rel="stylesheet">
+	<script src="../plugins/owlcarousel/owl.carousel.min.js"></script>
+
+	<!-- plugin: slickslider -->
+	<link href="../plugins/slickslider/slick.css" rel="stylesheet" type="text/css" />
+	<link href="../plugins/slickslider/slick-theme.css" rel="stylesheet" type="text/css" />
+	<script src="../plugins/slickslider/slick.min.js"></script>
+
+	<!-- plugin: fancybox  -->
+	<script src="../plugins/fancybox/fancybox.min.js" type="text/javascript"></script>
+	<link href="../plugins/fancybox/fancybox.min.css" type="text/css" rel="stylesheet">
+
+	<!-- custom style -->
+	<link href="../css/ui.css" rel="stylesheet" type="text/css" />
+	<link href="../css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+	<!-- our styles -->
+	<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+
+	<!-- custom javascript -->
+	<script src="../js/script.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		/// some script
+
+		// jquery ready start
+		$(document).ready(function () {
+			// jQuery code
+
+		});
+	// jquery end
+	</script>
+
+</head>
+
+<body>
+	<header class="section-header">
+		<nav class="navbar navbar-expand-sm navbar-dark bg-info">
+			<div class="container">
+				<div class="row" style="width:100%;">
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+							aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div>
+							<div class="collapse navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav d-flex justify-content-left align-items-center py-1">
+									<li class="nav-item active"><a class="nav-link" href="../index.html">Home<span
+												class="sr-only">(current)</span></a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="../categories/fiction.html">Fiction</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="../categories/nonFiction.html">Non-Fiction</a></li>
+									<li class="nav-item"><a class="nav-link" href="../categories/comics.html">Comics</a>
+									</li>
+									<li class="nav-item"><a class="nav-link"
+											href="../categories/accesories.html">Accesories</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-12-24 col-sm-12">
+						<div class="widgets-wrap float-right row no-gutters py-1">
+							<div class="col-auto">
+								<div class="widget-header dropdown">
+									<a href="#" data-toggle="dropdown" data-offset="20,10">
+										<div class="icontext">
+											<div class="icon-wrap"><i class="text-light icon-sm fa fa-user"></i></div>
+											<div class="text-wrap text-light">
+												Sign in <i class="fa fa-caret-down"></i>
+											</div>
+										</div>
+									</a>
+									<div class="dropdown-menu">
+										<form class="px-4 py-3">
+											<div class="form-group">
+												<label style="color: black;">Email address</label>
+												<input type="email" class="form-control-lg"
+													placeholder="email@example.com">
+											</div>
+											<div class="form-group">
+												<label style="color: black;">Password</label>
+												<input type="password" class="form-control-lg" placeholder="Password">
+											</div>
+											<button type="submit" class="btn btn-info">Sign in</button>
+										</form>
+										<hr class="dropdown-divider">
+										<a class="dropdown-item" href="registration.html">Sign up</a>
+										<a class="dropdown-item" href="#">Forgot password?</a>
+									</div> <!--  dropdown-menu .// -->
+								</div> <!-- widget-header .// -->
+							</div> <!-- col.// -->
+							<div class="col-auto">
+								<a href="cart.html" class="widget-header">
+									<div class="icontext">
+										<div class="icon-wrap"><i class="text-light icon-sm fa fa-shopping-cart"></i>
+										</div>
+										<div class="text-wrap text-light">Cart </div>
+									</div>
+								</a>
+							</div> <!-- col.// -->
+							<div class="col-auto">
+								<a href="favorites.html" class="widget-header">
+									<div class="icontext">
+										<div class="icon-wrap"><i class="text-light icon-sm  fa fa-heart"></i></div>
+										<div class="text-wrap text-light">Favorites</div>
+									</div>
+								</a>
+							</div> <!-- col.// -->
+						</div> <!-- widgets-wrap.// row.// -->
+					</div> <!-- col.// -->
+				</div>
+			</div>
+		</nav>
+		<section id="intro" class="section-intro pt-4">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-4">
+						<div class="brand-wrap">
+							<img class="logo" src="../images/logos.png" style="max-width: 100px;">
+							<h2 class="logo-text">BookStore</h2>
+						</div> <!-- brand-wrap.// -->
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+
+					</div> <!-- col.// -->
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+						<form action="#" class="widget-header float-right">
+							<div class="input-group">
+								<input type="text" class="form-control-lg" placeholder="Search">
+								<div class="input-group-append">
+									<button class="btn btn-info" type="submit">
+										<i class="fa fa-search"></i>
+									</button>
+								</div>
+							</div>
+						</form> <!-- search-wrap .end// -->
+					</div> <!-- col.// -->
+
+				</div> <!-- row.// -->
+			</div> <!-- container.// -->
+		</section> <!-- header-main .// -->
+	</header> <!-- section-header.// -->
+
+	<section class="section-content bg padding-y border-top">
+		<div class="container">
+
+			<div class="row">
+				<main class="col-xl-9 col-lg-9 col-md-12 col-sm-12">
+					<div>
+						<div class="container main-section">
+							<div class="row">
+								<div class="col-lg-12 pl-3 pt-3">
+									<table class="table table-hover border bg-white">
+										<thead>
+											<tr>
+												<th>Product</th>
+												<th>Price</th>
+												<th style="width:10%;">Quantity</th>
+												<th>Subtotal</th>
+												<th>Action</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>
+													<div class="row">
+														<div class="col-lg-3 Product-img">
+															<img src="../images/products/Travor.jpg" alt="..."
+																class="img-responsive" />
+														</div>
+														<div class="col-lg-9">
+															<h4 class="nomargin">Born a Crime</h4>
+															<p><i>by Travor Noah</i></p>
+														</div>
+													</div>
+												</td>
+												<td> $8.45 </td>
+												<td data-th="Quantity">
+													<input type="number" class="form-control text-center" value="1">
+												</td>
+												<td>$8.45</td>
+												<td class="actions" data-th="" style="width:10%;">
+													<button class="btn btn-info btn-sm"><i
+															class="fa fa-heart"></i></button>
+													<button class="btn btn-danger btn-sm">x<i
+															class="fa fa-trash-o"></i></button>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<div class="row">
+														<div class="col-lg-3 Product-img">
+															<img src="../images/products/faultInOurStar.jpg" alt="..."
+																class="img-responsive" />
+														</div>
+														<div class="col-lg-9">
+															<h4 class="nomargin">The Fault In Our Stars</h4>
+															<p><i>by John Green</i></p>
+														</div>
+													</div>
+												</td>
+												<td> $7.00 </td>
+												<td data-th="Quantity">
+													<input type="number" class="form-control text-center" value="1">
+												</td>
+												<td> $7.00 </td>
+												<td class="actions" data-th="" style="width:10%;">
+													<button class="btn btn-info btn-sm"><i
+															class="fa fa-heart"></i></button>
+													<button class="btn btn-danger btn-sm">x<i
+															class="fa fa-trash-o"></i></button>
+												</td>
+											</tr>
+										</tbody>
+										<tfoot>
+											<td><a href="../index.html" class="btn btn-info text-white"><i
+														class="fa fa-angle-left"></i> Continue Shopping</a></td>
+											<td colspan="2" class="hidden-xs"></td>
+											<td class="hidden-xs text-center" style="width:10%;"><strong>Total :
+													47,000</strong></td>
+											<td colspan="2" class="hidden-xs " style="color: white">Checkout <i
+													class="fa fa-angle-right" style="color: white;"></i></a></td>
+											</tr>
+										</tfoot>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div> <!-- card.// -->
+				</main> <!-- col.// -->
+				<aside class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+					<p class="alert alert-info">Add USD 5.00 of eligible items to your order to qualify for FREE
+						Shipping. </p>
+					<dl class="dlist-align">
+						<dt>Total price: </dt>
+						<dd class="text-right">USD 8.45</dd>
+					</dl>
+					<dl class="dlist-align">
+						<dt>Discount:</dt>
+						<dd class="text-right">USD 7.00</dd>
+					</dl>
+					<dl class="dlist-align h4">
+						<dt>Total:</dt>
+						<dd class="text-right"><strong style="color: #888888"> USD 15.45</strong></dd>
+					</dl>
+					<hr>
+					<figure class="itemside mb-3">
+						<aside class="aside"><img src="../images/icons/pay-visa.png"></aside>
+						<div class="text-wrap small text-muted">
+							Pay 84.78 AED ( Save 14.97 AED )
+							By using ADCB Cards
+						</div>
+					</figure>
+					<figure class="itemside mb-3">
+						<aside class="aside"> <img src="../images/icons/pay-mastercard.png"> </aside>
+						<div class="text-wrap small text-muted">
+							Pay by MasterCard and Save 40%. <br>
+
+						</div>
+					</figure>
+				</aside> <!-- col.// -->
+			</div>
+		</div> <!-- container .//  -->
+	</section>
+	<!-- ========================= SECTION CONTENT END// ========================= -->
+
+	<!-- ========================= SECTION  ========================= -->
+	<section class="section-name bg-white padding-y">
+		<div class="container">
+			<header class="section-heading">
+				<h2 class="title-section">Delivery condition</h2>
+			</header><!-- sect-heading -->
+
+			<p>Guaranteed Delivery guarantees the delivery dates for listings by eBay Store subscribers with 100 or more
+				transactions per year, a late shipment rate of 5% or less, and same- or 1-day handling time.<br>
+				Guaranteed Delivery listings will get a visibility boost, and your customers will get their items in 3
+				days or less.</p>
+		</div><!-- container // -->
+	</section>
+	<!-- ========================= SECTION  END// ========================= -->
+
+
+	<!-- ========================= FOOTER ========================= -->
+	<footer class=" section-footer bg-info">
+		<div class="container">
+			<section class="footer-top padding-top">
+				<div class="row">
+					<aside class="col-sm-12 col-md-6 col-xl-3 col-lg-3 white">
+						<h5 style="color: white; font-weight: bold;">Customer Services</h5>
+						<ul class="list-unstyled">
+							<li> <a href="contacts.html">Contact us</a></li>
+							<li> <a href="#">Money refund</a></li>
+							<li> <a href="#">Terms and Policy</a></li>
+							<li> <a href="#">Open dispute</a></li>
+						</ul>
+					</aside>
+					<aside class="col-sm-12 col-md-6 col-xl-3 col-lg-3 white">
+						<h5 style="color: white; font-weight: bold;">My Account</h5>
+						<ul class="list-unstyled">
+							<li> <a href="logIn.html"> User Login </a></li>
+							<li> <a href="registration.html"> User register </a></li>
+							<li> <a href="#"> Account Setting </a></li>
+							<li> <a href="cart.html"> My Orders </a></li>
+							<li> <a href="favorites.html"> My Wishlist </a></li>
+						</ul>
+					</aside>
+					<aside class="col-sm-12 col-md-6 col-xl-3 col-lg-3 white">
+						<h5 style="color: white; font-weight: bold;">About us</h5>
+						<ul class="list-unstyled">
+							<li> <a href="#"> Our history </a></li>
+							<li> <a href="#"> How to buy </a></li>
+							<li> <a href="#"> Delivery and payment </a></li>
+						</ul>
+					</aside>
+					<aside class="col-sm-12 col-md-6 col-xl-3 col-lg-3">
+						<article class="white">
+							<h5 style="color: white; font-weight: bold;"></h5>
+							<p>
+								<strong>Phone: </strong> +123456789 <br>
+								<strong>Fax:</strong> +123456789
+							</p>
+
+							<div class="btn-group white">
+								<a class="btn-floating btn-lg btn-fb" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn-floating btn-lg btn-ins" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-instagram"></i></a>
+								<a class="btn-floating btn-lg btn-yt" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-youtube"></i></a>
+								<a class="btn-floating btn-lg btn-tw" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-twitter"></i></a>
+								<a class="btn-floating btn-lg btn-pin" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-pinterest"></i></a>
+							</div>
+						</article>
+					</aside>
+				</div> <!-- row.// -->
+				<br>
+			</section>
+			<section class="footer-bottom row border-top-white">
+				<div class="col-sm-12 col-md-12 col-xl-6 col-lg-6">
+					<p class="text-md-right text-white-50">
+						Copyright &copy 2020 BookStore. All rights reserved.
+						<a href="me@gmail.com" class="text-white-50"></a>
+					</p>
+				</div>
+			</section> <!-- //footer-top -->
+		</div><!-- //container -->
+	</footer>
+	<!-- ========================= FOOTER END // ========================= -->
+
+
+
+</body>
+
+</html>

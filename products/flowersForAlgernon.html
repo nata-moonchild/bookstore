@@ -1,0 +1,410 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="NP">
+
+	<title>BookStore</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="../images/logos.png">
+
+	<!-- jQuery -->
+	<script src="../js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+	<!-- Bootstrap4 files-->
+	<script src="../js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+	<!-- Font awesome 5 -->
+	<link href="../fonts/fontawesome/css/fontawesome-all.min.css" type="text/css" rel="stylesheet">
+
+	<!--plugin -->
+	<!-- plugin: owl carousel  -->
+	<link href="../plugins/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="../plugins/owlcarousel/assets/owl.theme.default.css" rel="stylesheet">
+	<script src="../plugins/owlcarousel/owl.carousel.min.js"></script>
+
+	<!-- plugin: slickslider -->
+	<link href="../plugins/slickslider/slick.css" rel="stylesheet" type="text/css" />
+	<link href="../plugins/slickslider/slick-theme.css" rel="stylesheet" type="text/css" />
+	<script src="../plugins/slickslider/slick.min.js"></script>
+
+	<!-- plugin: fancybox  -->
+	<script src="../plugins/fancybox/fancybox.min.js" type="text/javascript"></script>
+	<link href="../plugins/fancybox/fancybox.min.css" type="text/css" rel="stylesheet">
+
+	<!-- custom style -->
+	<link href="../css/ui.css" rel="stylesheet" type="text/css" />
+	<link href="../css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+	<!-- our styles -->
+	<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+
+	<!-- custom javascript -->
+	<script src="../js/script.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		/// some script
+
+		// jquery ready start
+		$(document).ready(function () {
+			// jQuery code
+
+		});
+	// jquery end
+	</script>
+
+</head>
+
+<body>
+	<header class="section-header">
+		<nav class="navbar navbar-expand-sm navbar-dark bg-info">
+			<div class="container">
+				<div class="row" style="width:100%;">
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+							aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div>
+							<div class="collapse navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav d-flex justify-content-left align-items-center py-1">
+									<li class="nav-item active"><a class="nav-link" href="../index.html">Home<span
+												class="sr-only">(current)</span></a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="../categories/fiction.html">Fiction</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="../categories/nonFiction.html">Non-Fiction</a></li>
+									<li class="nav-item"><a class="nav-link" href="../categories/comics.html">Comics</a>
+									</li>
+									<li class="nav-item"><a class="nav-link"
+											href="../categories/accesories.html">Accesories</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-12-24 col-sm-12">
+						<div class="widgets-wrap float-right row no-gutters py-1">
+							<div class="col-auto">
+								<div class="widget-header dropdown">
+									<a href="#" data-toggle="dropdown" data-offset="20,10">
+										<div class="icontext">
+											<div class="icon-wrap"><i class="text-light icon-sm fa fa-user"></i></div>
+											<div class="text-wrap text-light">
+												Sign in <i class="fa fa-caret-down"></i>
+											</div>
+										</div>
+									</a>
+									<div class="dropdown-menu">
+										<form class="px-4 py-3">
+											<div class="form-group">
+												<label style="color: black;">Email address</label>
+												<input type="email" class="form-control-lg"
+													placeholder="email@example.com">
+											</div>
+											<div class="form-group">
+												<label style="color: black;">Password</label>
+												<input type="password" class="form-control-lg" placeholder="Password">
+											</div>
+											<button type="submit" class="btn btn-info">Sign in</button>
+										</form>
+										<hr class="dropdown-divider">
+										<a class="dropdown-item" href="../pages/registration.html"> Sign up</a>
+										<a class="dropdown-item" href="#">Forgot password?</a>
+									</div> <!--  dropdown-menu .// -->
+								</div> <!-- widget-header .// -->
+							</div> <!-- col.// -->
+							<div class="col-auto">
+								<a href="../pages/cart.html" class="widget-header">
+									<div class="icontext">
+										<div class="icon-wrap"><i class="text-light icon-sm fa fa-shopping-cart"></i>
+										</div>
+										<div class="text-wrap text-light">Cart </div>
+									</div>
+								</a>
+							</div> <!-- col.// -->
+							<div class="col-auto">
+								<a href="../pages/favorites.html" class="widget-header">
+									<div class="icontext">
+										<div class="icon-wrap"><i class="text-light icon-sm  fa fa-heart"></i></div>
+										<div class="text-wrap text-light">Favorites</div>
+									</div>
+								</a>
+							</div> <!-- col.// -->
+						</div> <!-- widgets-wrap.// row.// -->
+					</div> <!-- col.// -->
+				</div>
+			</div>
+		</nav>
+		<section id="intro" class="section-intro pt-4">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-4">
+						<div class="brand-wrap">
+							<img class="logo" src="../images/logos.png" style="max-width: 100px;">
+							<h2 class="logo-text">BookStore</h2>
+						</div> <!-- brand-wrap.// -->
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+
+					</div> <!-- col.// -->
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+						<form action="#" class="widget-header float-right">
+							<div class="input-group">
+								<input type="text" class="form-control-lg" placeholder="Search">
+								<div class="input-group-append">
+									<button class="btn btn-info" type="submit">
+										<i class="fa fa-search"></i>
+									</button>
+								</div>
+							</div>
+						</form> <!-- search-wrap .end// -->
+					</div> <!-- col.// -->
+
+				</div> <!-- row.// -->
+			</div> <!-- container.// -->
+		</section> <!-- header-main .// -->
+	</header> <!-- section-header.// -->
+
+
+	<!-- ========================= SECTION CONTENT ========================= -->
+	<section class="section-content bg padding-y-sm">
+		<div class="container">
+			<nav class="mb-3">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+					<li class="breadcrumb-item"><a href="../categories/fiction.html">Fiction</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Flowers For Algernon</li>
+				</ol>
+			</nav>
+
+			<div class="row">
+				<div class="col-xl-10 col-md-12 col-sm-12">
+					<main class="card">
+						<div class="row no-gutters">
+							<aside class="col-sm-6 border-right">
+								<article class="gallery-wrap">
+									<div class="img-wrap">
+										<div><a href="../images/products/algernon.jpg" data-fancybox=""><img
+													src="../images/products/algernon.jpg" class="img-fuid"></a>
+										</div>
+									</div> <!-- slider-product.// -->
+
+								</article> <!-- gallery-wrap .end// -->
+							</aside>
+							<aside class="col-xl-6 col-md-6 col-sm-12">
+								<article class=" card-body">
+									<!-- short-info-wrap -->
+									<h3 class="title mb-3" style="text-align: left;">Flowers For Algernon<br><i>by
+											Daniel Keyes</i> </h3>
+									<div class="mb-3">
+										<var class="price h3 text-info">
+											<span class="currency">US $</span><span class="num">10.94</span>
+										</var>
+									</div> <!-- price-detail-wrap .// -->
+									<dl>
+										<dt>Description</dt>
+										<dd>
+											<p>Oscar-winning film Charly starring Cliff Robertson and Claire Bloom-a
+												mentally challenged man receives an operation that turns him into a
+												genius...and introduces him to heartache.
+											</p>
+										</dd>
+									</dl>
+									<dl class="row">
+										<dt class="col-sm-9">Length</dt>
+										<dd class="col-sm-9">228 pages</dd>
+
+										<dt class="col-sm-9">Publisher</dt>
+										<dd class="col-sm-9"> Mariner Books; First edition (December 1, 2007) </dd>
+
+										<dt class="col-sm-9">Language</dt>
+										<dd class="col-sm-9">English </dd>
+									</dl>
+									<div class="rating-wrap">
+										<ul class="rating-stars">
+											<li style="width:80%" class="stars-active">
+												<i class="fa fa-star" style="color:#65afda;"></i> <i class=" fa fa-star"
+													style="color:#65afda;"></i>
+												<i class="fa fa-star" style="color:#65afda;"></i> <i class="fa fa-star"
+													style="color:#65afda;"></i>
+												<i class="fa fa-star"></i>
+											</li>
+											<li>
+												<i class="fa fa-star" style="color:#65afda;"></i> <i class="fa fa-star"
+													style="color:#65afda;"></i>
+												<i class="fa fa-star" style="color:#65afda;"></i> <i class="fa fa-star"
+													style="color:#65afda;"></i>
+												<i class="fa fa-star" style="color:#65afda;"></i>
+											</li>
+										</ul>
+										<div class="label-rating">199 reviews</div>
+										<div class="label-rating">234 orders </div>
+									</div> <!-- rating-wrap.// -->
+									<hr>
+
+
+									<a href="#" class="btn  btn-info "> <i class="fa fa-shopping-cart"
+											style="color: white;"></i> Add to Cart </a>
+									<a href="#" class="btn  btn-outline-info "><i class="fa fa-heart"></i> Add
+										to
+										Favorites </a>
+									<!-- short-info-wrap .// -->
+								</article> <!-- card-body.// -->
+							</aside> <!-- col.// -->
+						</div> <!-- row.// -->
+					</main> <!-- card.// -->
+
+					<!-- PRODUCT DETAIL -->
+					<article class="card mt-3">
+						<div class="card-body">
+							<h4>Detailed overview</h4>
+							<div class="container">
+								<div class="row">
+									<div class=" col-md-12">
+										<div id="summary">
+											<p class="collapse" id="collapseSummary" style="font-size: 16px;">
+												Daniel Keyes wrote little SF but is highly regarded for one classic,
+												Flowers for Algernon. As a 1959 novella it won a Hugo Award; the 1966
+												novel-length expansion won a Nebula. The Oscar-winning movie adaptation
+												Charly (1968) also spawned a 1980 Broadway musical. Following his
+												doctor's instructions, engaging simpleton Charlie Gordon tells his own
+												story in semi-literate "progris riports." He dimly wants to better
+												himself, but with an IQ of 68 can't even beat the laboratory mouse
+												Algernon at maze-solving: I dint feel bad because I watched Algernon and
+												I lernd how to finish the amaze even if it takes me along time. I dint
+												know mice were so smart. Algernon is extra-clever thanks to an
+												experimental brain operation so far tried only on animals. Charlie
+												eagerly volunteers as the first human subject. After frustrating delays
+												and agonies of concentration, the effects begin to show and the reports
+												steadily improve: "Punctuation, is? fun!" But getting smarter brings
+												cruel shocks, as Charlie realizes that his merry "friends" at the bakery
+												where he sweeps the floor have all along been laughing at him, never
+												with him. The IQ rise continues, taking him steadily past the human
+												average to genius level and beyond, until he's as intellectually alone
+												as the old, foolish Charlie ever was--and now painfully aware of it.
+												Then, ominously, the smart mouse Algernon begins to deteriorate.
+											</p>
+											<a class="collapsed" data-toggle="collapse" href="#collapseSummary"
+												aria-expanded="false" aria-controls="collapseSummary"></a>
+										</div>
+									</div>
+								</div>
+							</div> <!-- card-body.// -->
+					</article> <!-- card.// -->
+
+					<!-- PRODUCT DETAIL .// -->
+
+				</div> <!-- col // -->
+				<aside class="col-xl-2 col-md-6 col-sm-12">
+
+					<div style="font-family: inherit; padding: 4%; font-size: 22px;">
+						Suggestions
+					</div>
+
+					<a href="origins.html">
+						<figure class="card card-product">
+							<div class="img-wrap"> <img src="../images/fiction/9780525563693.gif"></div>
+							<figcaption class="info-wrap">
+								<p class="title">Origin<br><i>by Dan Brown</i></p>
+								<div class="price-wrap">
+									<span class="price-new">$8.94</span>
+								</div> <!-- price-wrap.// -->
+							</figcaption>
+						</figure> <!-- card // -->
+					</a>
+					<a href="kindred.html">
+						<figure class="card card-product">
+							<div class="img-wrap"> <img src="../images/fiction/9780807083109.gif"></div>
+							<figcaption class="info-wrap">
+								<p class="title">Kindred<br>
+									<i>by Octavia E Butler</i></p>
+								<div class="price-wrap">
+									<span class="price-new">$7.95</span>
+								</div> <!-- price-wrap.// -->
+							</figcaption>
+						</figure> <!-- card // -->
+					</a>
+				</aside> <!-- col // -->
+			</div> <!-- row.// -->
+		</div><!-- container // -->
+	</section>
+	<!-- ========================= SECTION CONTENT .END// ========================= -->
+
+	<!-- ========================= FOOTER ========================= -->
+	<footer class=" section-footer bg-info">
+		<div class="container">
+			<section class="footer-top padding-top">
+				<div class="row">
+					<aside class="col-sm-12 col-md-6 col-xl-3 col-lg-3 white">
+						<h5 style="color: white; font-weight: bold;">Customer Services</h5>
+						<ul class="list-unstyled">
+							<li> <a href="../pages/contacts.html">Contact us</a></li>
+							<li> <a href="#">Money refund</a></li>
+							<li> <a href="#">Terms and Policy</a></li>
+							<li> <a href="#">Open dispute</a></li>
+						</ul>
+					</aside>
+					<aside class="col-sm-12 col-md-6 col-xl-3 col-lg-3 white">
+						<h5 style="color: white; font-weight: bold;">My Account</h5>
+						<ul class="list-unstyled">
+							<li> <a href="../pages/logIn.html"> User Login </a></li>
+							<li> <a href="../pages/registration.html"> User register </a></li>
+							<li> <a href="#"> Account Setting </a></li>
+							<li> <a href="../pages/cart.html"> My Orders </a></li>
+							<li> <a href="../pages/favorites.html"> My Wishlist </a></li>
+						</ul>
+					</aside>
+					<aside class="col-sm-12 col-md-6 col-xl-3 col-lg-3 white">
+						<h5 style="color: white; font-weight: bold;">About us</h5>
+						<ul class="list-unstyled">
+							<li> <a href="#"> Our history </a></li>
+							<li> <a href="#"> How to buy </a></li>
+							<li> <a href="#"> Delivery and payment </a></li>
+						</ul>
+					</aside>
+					<aside class="col-sm-12 col-md-6 col-xl-3 col-lg-3">
+						<article class="white">
+							<h5 style="color: white; font-weight: bold;"></h5>
+							<p>
+								<strong>Phone: </strong> +123456789 <br>
+								<strong>Fax:</strong> +123456789
+							</p>
+
+							<div class="btn-group white">
+								<a class="btn-floating btn-lg btn-fb" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn-floating btn-lg btn-ins" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-instagram"></i></a>
+								<a class="btn-floating btn-lg btn-yt" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-youtube"></i></a>
+								<a class="btn-floating btn-lg btn-tw" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-twitter"></i></a>
+								<a class="btn-floating btn-lg btn-pin" type="button" role="button" target="_blank"
+									href="#"><i class="fab fa-pinterest"></i></a>
+							</div>
+						</article>
+					</aside>
+				</div> <!-- row.// -->
+				<br>
+			</section>
+			<section class="footer-bottom row border-top-white">
+				<div class="col-sm-12 col-md-12 col-xl-6 col-lg-6">
+					<p class="text-md-right text-white-50">
+						Copyright &copy 2020 BookStore. All rights reserved.
+						<a href="me@gmail.com" class="text-white-50"></a>
+					</p>
+				</div>
+			</section> <!-- //footer-top -->
+		</div><!-- //container -->
+	</footer>
+	<!-- ========================= FOOTER END // ========================= -->
+
+
+</body>
+
+</html>
